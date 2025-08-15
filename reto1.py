@@ -112,7 +112,7 @@ sol = sp.solve(eq,R2)[0]
 
 
 # 1️⃣ Input del usuario
-respuesta = st.number_input("Ingrese el valor de R2", value=0.0)
+respuesta = st.number_input("Ingrese el valor de la reacción generada en el Apoyo B", value=0.0)
 
 # 2️⃣ Respuesta correcta (puede ser fija o calculada en tu código)
 respuesta_correcta = sol.evalf(4)
@@ -124,4 +124,5 @@ if st.button("Calificar"):
     else:
 
         st.error(f"❌ Incorrecto.")
+
 
