@@ -1,5 +1,4 @@
 import sympy as sp
-import numpy as np
 import streamlit as st
 
 st.markdown("# 📊 Análisis Estructural Interactivo")
@@ -123,4 +122,5 @@ if st.button("Calificar"):
     if abs(respuesta - respuesta_correcta) < 1.5:  # margen de tolerancia
         st.success(f"✅ Correcto.")
     else:
+
         st.error(f"❌ Incorrecto.")
