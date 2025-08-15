@@ -7,7 +7,7 @@ st.markdown("Genera valores, calcula reacciones y comprueba tus respuestas")
 x=sp.Symbol("x")
 R2=sp.Symbol("R2")
 
-st.image("Analisis\examen1.png", caption="Reto 1. Método de Trabajo Virtual", use_container_width=True)
+st.image("examen1.png", caption="Reto 1. Método de Trabajo Virtual", use_container_width=True)
 
 #función para hallar Area y centro de un trapecio
 def trapecio(p,q,base):
@@ -124,3 +124,4 @@ if st.button("Calificar"):
     else:
 
         st.error(f"❌ Incorrecto.")
+
